@@ -19,10 +19,6 @@
 
 'use strict';
 
-const ARRAY_LENGTH = 20000000;
-const array = Array.from({length: ARRAY_LENGTH}, () => Math.floor(Math.random() * 1000000));
-
-
 const ALGORITHMS = [
   (element) => { return Math.pow(element, 5) },
   (element) => { return Math.log(element) },
@@ -61,6 +57,8 @@ const reallyComplexFunction = (element, steps = 0) => {
  * available in Javascript and compare their execution's time
  */
 function comparisonOfLoops() {
+  const ARRAY_LENGTH = prompt("Introduce the array size. (We recommend not to introduce a number bigger than 5000000)");
+  const array = Array.from({length: ARRAY_LENGTH}, () => Math.floor(Math.random() * 1000000));
   /**
    * Analysis of the classic for loop
    */
@@ -107,7 +105,7 @@ function comparisonOfLoops() {
   t1 = performance.now();
   const forInTime = (t1 - t0) / 1000;
 
-  alert(`Execution time of the different loops with an array of ${ARRAY_LENGTH.length} elements:
+  alert(`Execution time of the different loops with an array of ${ARRAY_LENGTH} elements:
   For loop: ${classicForTime} seconds
   For-Each loop: ${forEachTime} seconds
   Every loop: ${everyTime} seconds

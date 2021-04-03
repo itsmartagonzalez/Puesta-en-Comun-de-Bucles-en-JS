@@ -20,7 +20,7 @@
 'use strict';
 
 const {performance} = require('perf_hooks'); // performance.now()
-const ARRAY_LENGTH = 40000000;
+const ARRAY_LENGTH = 50000000;
 const array = Array.from({length: ARRAY_LENGTH}, () => Math.floor(Math.random() * 1000000));
 
 /**
