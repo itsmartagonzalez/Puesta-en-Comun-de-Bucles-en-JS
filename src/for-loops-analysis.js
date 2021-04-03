@@ -43,7 +43,7 @@ const ALGORITHMS = [
   (element) => { return Math.atan(element) },
   (element) => { return Math.sinh(element) },
   (element) => { return Math.cosh(element) },
-  (element) => { return Math.atan2(element); }
+  (element) => { return Math.atan2(element) }
 ];
 
 /**
