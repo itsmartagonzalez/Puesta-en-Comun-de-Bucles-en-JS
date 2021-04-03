@@ -1,0 +1,14 @@
+{
+  "name": "prime-factors-web-server",
+  "version": "1.0.0",
+  "description": "Prime Factors Web Server",
+  "scripts": {
+    "start": "node web-server/app.js"
+  },
+  "author": "Marta Julia González Padrón",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.3",
+    "uniq": "^1.0.1"
+  }
+}
