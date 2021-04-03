@@ -50,4 +50,4 @@ Cabe destacar que es posible que los tiempos de ejecución de los navegadores se
 
 ___
 ## Conclusión
-Dejando un poco de lado las conclusiones individuales y juntando nuestros conocimientos para llegar a una conclusión común, podemos observar que los tiempos de ejecucion son bastante parecidos entre un bucle y otro. Por este motivo consideramos que es mejor utilizar el bucle más representativo a la hora de programar. No obstante, como ya fue recomendado, es preferible no recorrer arrays con el bucle *for ... in ...* ya que no solo es bastante más lento que el resto de los bucles sino que también fué diseñado para recorrer Objetos. 
+Dejando un poco de lado las conclusiones individuales y juntando nuestros conocimientos para llegar a una conclusión común, podemos observar que los tiempos de ejecución son bastante parecidos entre un bucle y otro. Por este motivo consideramos que es mejor utilizar el bucle más expresivo a la hora de programar. No obstante, como ya fue recomendado, es preferible no recorrer arrays con el bucle *for ... in ...* ya que no solo es bastante más lento que el resto de los bucles sino que también fue diseñado para recorrer Objetos.
