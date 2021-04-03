@@ -13,7 +13,7 @@ Las principales mejoras implementadas han sido:
 * Posibilidad que se le brinda al usuario para que introduzca en la web destinada a la reproducción del experimento en navegadores *(<http://10.6.130.49:8088>)* el tamaño del array que desee.
   - Aclaración: Puede accederse a esta web, para realizar los experimentos, siempre y cuando se esté conectado a la VPN de la Universidad de La Laguna.
 
-* Aumento del grado de complejidad de la función a la que se llama para cada elemento del array
+* Aumento del grado de complejidad de la función a la que se llama para cada elemento del array.
   - La función `reallyComplexFunction` se encarga de hacer llamadas recursivas a ella misma y recorre, en cada una de ellas, un método distinto que se aplica al elemento del array.
   - Estos métodos aplicados son operaciones matemáticas de la clase Math, y están contenidos en el array constante `ALGORITHMS`.
 
